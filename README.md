@@ -12,7 +12,6 @@ I am continuously learning and exploring modern ML tools, cloud-ready workflows,
 - 👯 Looking to collaborate on **Data Science & ML projects**
 - 💬 Ask me about **Machine Learning, Deep Learning,Time Series & NLP**
 - 💬 Ask me about **Python, Pandas, ML, SQL**
-
 - 📫 How to reach me **ankit.aiml625@gmail.com**
 
 
