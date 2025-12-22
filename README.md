@@ -1,5 +1,6 @@
 
-![]()
+(![Machine Learning Banner](https://raw.githubusercontent.com/Ankitkumar1141/Ankitkumar1141/main/ml-banner.png)
+
 <h1 align="center">Hi 👋, I'm Ankit Kumar Jha</h1>
 <h3 align="center">Hey there! I am a results-driven Machine Learning enthusiast with a strong foundation in Python, statistics, and data-driven problem solving. I enjoy building end-to-end ML solutions—from data collection and feature engineering to model training, evaluation, and deployment.
 My experience spans supervised and unsupervised learning, NLP, and model optimization, along with hands-on exposure to MLOps practices such as experiment tracking, version control, and scalable pipelines. I focus on writing clean, reproducible code and translating complex data into actionable insights.
