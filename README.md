@@ -1,4 +1,4 @@
-
+![Machine Learning Banner](https://raw.githubusercontent.com/Ankitkumar1141/Ankitkumar1141/main/banner.jpg)
 
 <h1 align="center">Hi 👋, I'm Ankit Kumar Jha</h1>
 <h3 align="center">Hey there! I am a results-driven Machine Learning enthusiast with a strong foundation in Python, statistics, and data-driven problem solving. I enjoy building end-to-end ML solutions—from data collection and feature engineering to model training, evaluation, and deployment.
