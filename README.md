@@ -36,8 +36,3 @@ Experience building LLM evaluation frameworks and benchmarking multiple models i
 <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a>
 </p>
 
-<h2 align="left"> GitHub Stats</h2>
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Ankitkumar1141&show_icons=true&locale=en&layout=compact" alt="Ankitkumar1141" /></p>
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Ankitkumar1141&show_icons=true&theme=radical" />
-</p>
