@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Ankit Kumar Jha</h1>
 <h3 align="center">AI & ML Engineer</h3>
-<h3 align="center">I design and ship end-to-end applied GenAI and ML systems—from RAG pipelines with hybrid retrieval and cross-encoder reranking, to LLM evaluation frameworks, to production-ready ML pipelines covering data ingestion, feature engineering, training, and deployment.
-My work spans supervised and unsupervised learning, NLP, time-series forecasting, and LLM fine-tuning (LoRA/PEFT), with hands-on MLOps practice across experiment tracking, containerization, and cloud deployment (AWS, GCP). I focus on writing clean, reproducible code and translating complex data into measurable, production-ready impact — welcome to my GitHub!
+<h3 align="center">I design and ship end-to-end applied GenAI and ML systems - from RAG pipelines with hybrid retrieval and cross-encoder reranking, to LLM evaluation frameworks, to production-ready ML pipelines covering data ingestion, feature engineering, training, and deployment.
+My work spans supervised and unsupervised learning, NLP, time-series forecasting, and LLM fine-tuning (LoRA/PEFT), with hands-on MLOps practice across experiment tracking, containerization, and cloud deployment (AWS, GCP). I focus on writing clean, reproducible code and translating complex data into measurable, production-ready impact - welcome to my GitHub!
 </h3>
 
 - 🌱 Learning and deepening expertise in **LLM fine-tuning, LangGraph, and advanced RAG architectures**
