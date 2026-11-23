@@ -1,86 +1,94 @@
-<h1 align="center">Ankit Kumar Jha</h1>
-<h3 align="center">Data Scientist &nbsp;|&nbsp; AI & Machine Learning Engineer</h3>
+# Hi, I'm Ankit Kumar Jha 👋
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/ankit-kumar-jha-46a076310"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:ankit.aiml625@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?logo=gmail&logoColor=white" alt="Email"/></a>
-</p>
+I build, evaluate, and deploy machine learning and LLM systems, from data pipelines and models to containerised services people actually use. Based in New Delhi, India.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ankit--kumar--jha-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/ankit-kumar-jha)
+[![Email](https://img.shields.io/badge/Email-ankit.aiml625%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:ankit.aiml625@gmail.com)
 
 ---
 
-## About
+## What I work on
 
-I turn data into reliable, measurable outcomes. My work covers the full lifecycle of applied data science and machine learning: problem framing, data ingestion and cleaning, feature engineering, modelling, evaluation, and deployment.
+- **Retrieval and LLM systems:** hybrid retrieval, reranking, and evaluation harnesses
+- **Agents and tooling:** tool-using agents with checkpointing, streaming, and tracing
+- **Applied machine learning:** end-to-end pipelines for classification, NLP, and time-series problems
+- **Evaluation and benchmarking:** custom metrics, automated scoring, and model comparison
+- **Deployment:** Docker, FastAPI, and cloud services on AWS and GCP
 
-I work across classical machine learning, deep learning, NLP, time-series forecasting, and generative AI, with a focus on clean, reproducible code and solutions that hold up in production.
+---
 
-## Core Competencies
+## Featured projects
 
-| Area | What I Do |
+### [NexusRAG](https://github.com/Ankitkumar1141/NexusRAG)
+A hybrid RAG engine combining parent-child hierarchical chunking, concurrent dense (FAISS) and sparse (BM25) retrieval, and Reciprocal Rank Fusion, followed by two-stage cross-encoder reranking and a SHA-256 LRU semantic cache.
+- 98.6% Recall@K, 0.996 MRR, and 100% faithfulness on an automated 110-case benchmark
+- ~1.01s query latency, sub-50ms on cached hits
+- `Python` `LangChain` `FAISS` `Pinecone` `BM25` `Mistral` `Gemini` `Streamlit` `Docker`
+
+### [Cortex](https://github.com/Ankitkumar1141/Cortex)
+A LangGraph conversational agent with a Pydantic-validated intent router that sends each turn to either direct chat or a 12-tool agentic loop (web search, weather, finance, arXiv, URL scraping, and more).
+- Per-thread SQLite checkpointing, response streaming with a live tool-status UI, and LangSmith tracing
+- `Python` `LangGraph` `LangChain` `MCP` `FastAPI` `Streamlit` `Mistral AI`
+
+### [Churn Modelling](https://github.com/Ankitkumar1141/Churn-modelling)
+An end-to-end churn prediction pipeline on 10,000 relational customer records, benchmarking 8 algorithms with Optuna tuning.
+- 0.84 ROC-AUC, with minority-class recall raised to 75.7% after handling 36% missing balances and a 4:1 class imbalance
+- Experiments tracked in MLflow, predictions served via FastAPI in Docker
+- `Python` `XGBoost` `LightGBM` `scikit-learn` `Optuna` `MLflow` `FastAPI` `Docker`
+
+---
+
+## Experience highlights
+
+- **Ethara AI** (Feb 2026 – Sep 2026): automated large-scale LLM output evaluation (50% less manual assessment time across 1,000+ prompt variations), designed evaluation frameworks that cut new-model onboarding from 5 days to 2, and benchmarked 5+ LLMs to inform model selection.
+- **Freelance** (Nov 2024 – Jun 2026): delivered 3+ end-to-end ML pipelines and deployed containerised services on AWS EC2 and GCP for 45+ daily active users, including a churn model with a 12-point accuracy lift over baseline.
+
+---
+
+## Tech stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?logo=postgresql&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=black)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?logo=langchain&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonwebservices&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?logo=googlecloud&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?logo=mlflow&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?logo=powerbi&logoColor=black)
+
+| Area | Tools |
 |---|---|
-| **Data Science & Analytics** | Exploratory analysis, statistical analysis, feature engineering, experiment design, data storytelling |
-| **Machine Learning** | Supervised and unsupervised learning, classification, regression, clustering, model evaluation and tuning |
-| **Time Series & Forecasting** | Trend and seasonality analysis, forecasting pipelines, performance benchmarking |
-| **NLP & Generative AI** | Text classification, RAG pipelines (hybrid retrieval, cross-encoder reranking), LLM evaluation and benchmarking, fine-tuning with LoRA / PEFT |
-| **MLOps & Deployment** | Experiment tracking, containerization, REST APIs, cloud deployment on AWS and GCP |
-
-## Technical Skills
-
-- **Languages:** Python, SQL
-- **Data & ML:** Pandas, NumPy, Scikit-learn, PyTorch, TensorFlow, Seaborn
-- **GenAI & LLM Tooling:** LangChain, LangGraph, Hugging Face, vector search and retrieval systems
-- **Databases:** PostgreSQL, MongoDB
-- **Deployment & Cloud:** FastAPI, Docker, AWS, GCP
-- **Tools:** Git, Selenium
-
-## Experience
-
-**Applied GenAI**
-Built LLM evaluation frameworks and benchmarked multiple models to support model selection and quality assessment.
-
-**Freelance, Data Science & Machine Learning**
-Delivered end-to-end ML pipelines (NLP, classification, time series) deployed on cloud infrastructure and used by real users.
-
-## Featured Projects
-
-<!-- Add 2-4 projects here. Suggested format below. -->
-
-<!--
-### Project Name
-One-line problem statement and the outcome.
-**Stack:** Python, Scikit-learn, FastAPI, Docker
-**Results:** e.g., model metric, improvement over baseline, or business impact
-[View Repository](link)
--->
-
-## Currently Exploring
-
-- LLM fine-tuning and evaluation
-- Agentic workflows with LangGraph
-- Advanced RAG architectures
-
-## Open To
-
-Collaboration and opportunities in **Data Science, Machine Learning, and Generative AI**.
-
-## Tools & Technologies
-
-<p align="left">
-<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
-<a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a>
-<a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit-learn" width="40" height="40"/> </a>
-<a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a>
-<a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a>
-<a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a>
-<a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a>
-<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a>
-<a href="https://fastapi.tiangolo.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="fastapi" width="40" height="40"/> </a>
-<a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="docker" width="40" height="40"/> </a>
-<a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a>
-<a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg" alt="gcp" width="40" height="40"/> </a>
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
-</p>
+| **LLM / GenAI** | RAG, LangChain, LangGraph, LangSmith, Hugging Face Transformers, LoRA/PEFT, prompt engineering, MCP |
+| **Machine learning** | PyTorch, TensorFlow, Keras, scikit-learn, XGBoost, LightGBM, Optuna, time-series forecasting |
+| **Data and storage** | Pandas, NumPy, Spark/PySpark, MySQL, PostgreSQL, MongoDB, FAISS, ChromaDB, Pinecone, Qdrant |
+| **Deployment** | Docker, FastAPI, Streamlit, MLflow, AWS (EC2, S3, SageMaker), GCP (Vertex AI), CI/CD |
+| **Analysis** | Excel, Power BI |
 
 ---
 
-<p align="center">Thanks for visiting. Feel free to explore my repositories or get in touch.</p>
+## GitHub stats
+
+![Ankit's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ankitkumar1141&show_icons=true&hide_border=true)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ankitkumar1141&layout=compact&hide_border=true)
+
+---
+
+## Certifications
+
+- Google Cloud ML Specialization (Vertex AI)
+- Deep Learning and NLP Specializations (Coursera)
+
+---
+
+## Let's connect
+
+I'm always happy to talk about machine learning, LLM systems, evaluation, and building things that work in production. Reach me on [LinkedIn](https://linkedin.com/in/ankit-kumar-jha) or at ankit.aiml625@gmail.com.
