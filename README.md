@@ -75,13 +75,6 @@ An end-to-end churn prediction pipeline on 10,000 relational customer records, b
 
 ---
 
-## GitHub stats
-
-![Ankit's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ankitkumar1141&show_icons=true&hide_border=true)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ankitkumar1141&layout=compact&hide_border=true)
-
----
-
 ## Certifications
 
 - Google Cloud ML Specialization (Vertex AI)
