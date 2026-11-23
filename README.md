@@ -1,18 +1,24 @@
 # Hi, I'm Ankit Kumar Jha 👋
 
-I build, evaluate, and deploy machine learning and LLM systems, from data pipelines and models to containerised services people actually use. Based in New Delhi, India.
-
+I build, evaluate, and deploy machine learning and LLM systems, from data pipelines and models to containerised services people actually use. 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ankit--kumar--jha-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/ankit-kumar-jha)
 [![Email](https://img.shields.io/badge/Email-ankit.aiml625%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:ankit.aiml625@gmail.com)
 
 ---
 
+## Open to freelance work
+
+I'm currently open to freelance projects across machine learning and LLM systems: RAG pipelines, LangGraph agents, LLM evaluation and benchmarking, fine-tuning, and deploying ML services. If you have something in mind, get in touch via [LinkedIn](https://linkedin.com/in/ankit-kumar-jha) or [email](mailto:ankit.aiml625@gmail.com).
+
+---
+
 ## What I work on
 
-- **Retrieval and LLM systems:** hybrid retrieval, reranking, and evaluation harnesses
-- **Agents and tooling:** tool-using agents with checkpointing, streaming, and tracing
+- **RAG systems:** hybrid retrieval, reranking, and evaluation harnesses
+- **Agents with LangGraph:** tool-using agents with checkpointing, streaming, and tracing
+- **LLM evaluation:** custom metrics, automated scoring, and model benchmarking
+- **LLM post-training:** SFT, RLHF, LoRA/PEFT fine-tuning, and data annotation
 - **Applied machine learning:** end-to-end pipelines for classification, NLP, and time-series problems
-- **Evaluation and benchmarking:** custom metrics, automated scoring, and model comparison
 - **Deployment:** Docker, FastAPI, and cloud services on AWS and GCP
 
 ---
@@ -38,13 +44,6 @@ An end-to-end churn prediction pipeline on 10,000 relational customer records, b
 
 ---
 
-## Experience highlights
-
-- **Ethara AI** (Feb 2026 – Sep 2026): automated large-scale LLM output evaluation (50% less manual assessment time across 1,000+ prompt variations), designed evaluation frameworks that cut new-model onboarding from 5 days to 2, and benchmarked 5+ LLMs to inform model selection.
-- **Freelance** (Nov 2024 – Jun 2026): delivered 3+ end-to-end ML pipelines and deployed containerised services on AWS EC2 and GCP for 45+ daily active users, including a churn model with a 12-point accuracy lift over baseline.
-
----
-
 ## Tech stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
@@ -53,25 +52,36 @@ An end-to-end churn prediction pipeline on 10,000 relational customer records, b
 ![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?logo=keras&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=black)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?logo=langgraph&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonwebservices&logoColor=white)
 ![GCP](https://img.shields.io/badge/GCP-4285F4?logo=googlecloud&logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?logo=mlflow&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
+![Spark](https://img.shields.io/badge/Spark-E25A1C?logo=apachespark&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?logo=powerbi&logoColor=black)
 
-| Area | Tools |
+| Area | Skills and tools |
 |---|---|
-| **LLM / GenAI** | RAG, LangChain, LangGraph, LangSmith, Hugging Face Transformers, LoRA/PEFT, prompt engineering, MCP |
-| **Machine learning** | PyTorch, TensorFlow, Keras, scikit-learn, XGBoost, LightGBM, Optuna, time-series forecasting |
-| **Data and storage** | Pandas, NumPy, Spark/PySpark, MySQL, PostgreSQL, MongoDB, FAISS, ChromaDB, Pinecone, Qdrant |
-| **Deployment** | Docker, FastAPI, Streamlit, MLflow, AWS (EC2, S3, SageMaker), GCP (Vertex AI), CI/CD |
-| **Analysis** | Excel, Power BI |
+| **LLM / GenAI** | Generative AI, LLM post-training, SFT, RLHF, fine-tuning (LoRA/PEFT), data annotation, prompt engineering, GPT-4, LLaMA, Hugging Face Transformers |
+| **RAG** | Hybrid dense + BM25 retrieval, Reciprocal Rank Fusion, cross-encoder reranking, chunking strategies, semantic caching |
+| **Agents and orchestration** | LangGraph, LangChain, LangSmith (tracing and observability), Model Context Protocol (MCP) |
+| **LLM evaluation** | Automated evaluation harnesses, custom metrics (accuracy, coherence, hallucination rate), model benchmarking, multi-stage testing pipelines |
+| **Core ML** | PyTorch, TensorFlow, Keras, scikit-learn, XGBoost, LightGBM, Optuna, feature engineering, time-series forecasting, neural networks |
+| **Languages** | Python, SQL, Java, C++ |
+| **Software engineering** | OOP, LLD, SDLC, REST APIs, Git, Bitbucket, CI/CD |
+| **Deployment and MLOps** | Docker, FastAPI, Streamlit, MLflow, AWS (EC2, S3, SageMaker), GCP (Vertex AI) |
+| **Databases and vector stores** | MySQL, PostgreSQL, MongoDB, FAISS, ChromaDB, Pinecone, Qdrant |
+| **Data analysis** | Pandas, NumPy, Spark, PySpark, Excel, Power BI |
 
 ---
 
